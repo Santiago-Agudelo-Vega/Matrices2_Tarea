@@ -14,79 +14,79 @@ def fnt_limpiar():
 
 def fnt_agregar(x, y):
     if x == 0 and y == 0:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = buena.upper()
     elif x == 0 and y == 1:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = mala.upper()
     elif x == 0 and y == 2:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = buena.upper()
     elif x == 0 and y == 3:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = buena.upper()
     elif x == 0 and y == 4:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = buena.upper()
     elif x == 1 and y == 0:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = mala.upper()
     elif x == 1 and y == 1:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = buena.upper()
     elif x == 1 and y == 2:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = buena.upper()
     elif x == 1 and y == 3:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = mala.upper()
     elif x == 1 and y == 4:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = mala.upper()
     elif x == 2 and y == 0:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = buena.upper()
     elif x == 2 and y == 1:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = buena.upper()
     elif x == 2 and y == 2:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = buena.upper()
     elif x == 2 and y == 3:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = mala.upper()
     elif x == 2 and y == 4:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = buena.upper()
     elif x == 3 and y == 0:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = buena.upper()
     elif x == 3 and y == 1:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = mala.upper()
     elif x == 3 and y == 2:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = mala.upper()
     elif x == 3 and y == 3:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = buena.upper()
     elif x == 3 and y == 4:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = buena.upper()
     elif x == 4 and y == 0:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = buena.upper()
     elif x == 4 and y == 1:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = mala.upper()
     elif x == 4 and y == 2:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = buena.upper()
     elif x == 4 and y == 3:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = buena.upper()
     elif x == 4 and y == 4:
-        if matriz [x][y] == '_':
+        if matriz [x][y] == '-':
             matriz [x][y] = mala.upper()
     
 def fnt_impresion():
