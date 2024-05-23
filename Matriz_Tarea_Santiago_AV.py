@@ -5,28 +5,99 @@ matriz = [['-', '-', '-', '-', '-', '-'],
           ['-', '-', '-', '-', '-', '-']]
 correcto = '◉'
 incorrecto = '☢'
-ls_preguntas = ['¿Que es python?\n1. Juegos\n2. Lenguaje de programación\n3. Marca de autp\n4. Ninguna de las anteriores',
-'¿Que es HTML?\n1. Lenguaje de programación\n2. Marca de gaseosas\n3. Navegador\n4. Perro caliente']
-ls_preguntas2 = ['2,1']
+import os
+def fnt_limpiar():
+    os.system('cls')
+    print('\n\n')
+    fnt_impresion()
+    print('\n\n')
 
-def fnt_pintar_matriz():
+def fnt_agregar(x, y):
+    if x == 0 and y == 0:
+        if matriz [x][y] == '_':
+            matriz [x][y] = buena.upper()
+    elif x == 0 and y == 1:
+        if matriz [x][y] == '_':
+            matriz [x][y] = mala.upper()
+    elif x == 0 and y == 2:
+        if matriz [x][y] == '_':
+            matriz [x][y] = buena.upper()
+    elif x == 0 and y == 3:
+        if matriz [x][y] == '_':
+            matriz [x][y] = buena.upper()
+    elif x == 0 and y == 4:
+        if matriz [x][y] == '_':
+            matriz [x][y] = buena.upper()
+    elif x == 1 and y == 0:
+        if matriz [x][y] == '_':
+            matriz [x][y] = mala.upper()
+    elif x == 1 and y == 1:
+        if matriz [x][y] == '_':
+            matriz [x][y] = buena.upper()
+    elif x == 1 and y == 2:
+        if matriz [x][y] == '_':
+            matriz [x][y] = buena.upper()
+    elif x == 1 and y == 3:
+        if matriz [x][y] == '_':
+            matriz [x][y] = mala.upper()
+    elif x == 1 and y == 4:
+        if matriz [x][y] == '_':
+            matriz [x][y] = mala.upper()
+    elif x == 2 and y == 0:
+        if matriz [x][y] == '_':
+            matriz [x][y] = buena.upper()
+    elif x == 2 and y == 1:
+        if matriz [x][y] == '_':
+            matriz [x][y] = buena.upper()
+    elif x == 2 and y == 2:
+        if matriz [x][y] == '_':
+            matriz [x][y] = buena.upper()
+    elif x == 2 and y == 3:
+        if matriz [x][y] == '_':
+            matriz [x][y] = mala.upper()
+    elif x == 2 and y == 4:
+        if matriz [x][y] == '_':
+            matriz [x][y] = buena.upper()
+    elif x == 3 and y == 0:
+        if matriz [x][y] == '_':
+            matriz [x][y] = buena.upper()
+    elif x == 3 and y == 1:
+        if matriz [x][y] == '_':
+            matriz [x][y] = mala.upper()
+    elif x == 3 and y == 2:
+        if matriz [x][y] == '_':
+            matriz [x][y] = mala.upper()
+    elif x == 3 and y == 3:
+        if matriz [x][y] == '_':
+            matriz [x][y] = buena.upper()
+    elif x == 3 and y == 4:
+        if matriz [x][y] == '_':
+            matriz [x][y] = buena.upper()
+    elif x == 4 and y == 0:
+        if matriz [x][y] == '_':
+            matriz [x][y] = buena.upper()
+    elif x == 4 and y == 1:
+        if matriz [x][y] == '_':
+            matriz [x][y] = mala.upper()
+    elif x == 4 and y == 2:
+        if matriz [x][y] == '_':
+            matriz [x][y] = buena.upper()
+    elif x == 4 and y == 3:
+        if matriz [x][y] == '_':
+            matriz [x][y] = buena.upper()
+    elif x == 4 and y == 4:
+        if matriz [x][y] == '_':
+            matriz [x][y] = mala.upper()
+    
+def fnt_impresion():
     for i in range(len(matriz)):
         for j in range(len(matriz[i])):
-            print(matriz[i][j], end='  ')
-            print('\n\n')
+            print(matriz[i][j], end=' ')
+        print()
 
-contador = 0
-for i in range(len(matriz)):
-    for j in range(len(matriz[i])):    
-        import os
-        os.system('cls')
-        fnt_pintar_matriz()
-        print()
-        print(ls_preguntas[contador])
-        print()
-        r = input('->')
-        if r == ls_preguntas[contador]:
-            matriz[i][j] = correcto
-        else:
-            matriz[i][j] = incorrecto
-        contador += 1 
+sw = True
+while sw == True:
+    import os
+    os.system('cls')
+    fnt_impresion()
+    fnt_agregar(int(input('fila: ')), int(input('columna: ')))
